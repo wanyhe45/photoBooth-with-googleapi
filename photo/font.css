@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'GoudyStd';
+    src: url('fonts/GoudyStd.eot');
+    src: url('fonts/GoudyStd.eot') format('embedded-opentype'),
+         url('fonts/GoudyStd.woff2') format('woff2'),
+         url('fonts/GoudyStd.woff') format('woff'),
+         url('fonts/GoudyStd.ttf') format('truetype'),
+         url('fonts/GoudyStd.svg#GoudyStd') format('svg');
+}
+
+@font-face {
+    font-family: 'GoudyStdItalic';
+    src: url('fonts/GoudyStdItalic.eot');
+    src: url('fonts/GoudyStdItalic.eot') format('embedded-opentype'),
+         url('fonts/GoudyStdItalic.woff2') format('woff2'),
+         url('fonts/GoudyStdItalic.woff') format('woff'),
+         url('fonts/GoudyStdItalic.ttf') format('truetype'),
+         url('fonts/GoudyStdItalic.svg#GoudyStdItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'GoudyStdBold';
+    src: url('fonts/GoudyStdBold.eot');
+    src: url('fonts/GoudyStdBold.eot') format('embedded-opentype'),
+         url('fonts/GoudyStdBold.woff2') format('woff2'),
+         url('fonts/GoudyStdBold.woff') format('woff'),
+         url('fonts/GoudyStdBold.ttf') format('truetype'),
+         url('fonts/GoudyStdBold.svg#GoudyStdBold') format('svg');
+}
+
+@font-face {
+    font-family: 'GoudyStdBoldItalic';
+    src: url('fonts/GoudyStdBoldItalic.eot');
+    src: url('fonts/GoudyStdBoldItalic.eot') format('embedded-opentype'),
+         url('fonts/GoudyStdBoldItalic.woff2') format('woff2'),
+         url('fonts/GoudyStdBoldItalic.woff') format('woff'),
+         url('fonts/GoudyStdBoldItalic.ttf') format('truetype'),
+         url('fonts/GoudyStdBoldItalic.svg#GoudyStdBoldItalic') format('svg');
+}

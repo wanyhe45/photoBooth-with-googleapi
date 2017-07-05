@@ -1,0 +1,69 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Photobooth</title>
+<!-- <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script> -->
+<link rel="stylesheet" type="text/css" href="photo.css">
+<link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body onload="getAllImg()">
+    
+<header>
+    <img src="../photobooth/photoboothLogo.png" alt="logo">
+</header>
+<hr>
+
+<aside>
+    <!-- **************** upload ****************-->
+    <div class="top">
+        <div id="top" class="initial" onclick="openTop()">
+            <img class = "icons" id="top-icon" src="../photobooth/uploadIcon-01.png" alt="upload">
+            <h1 class="title">upload</h1>
+        </div>
+        <div  id="open" class="open hide">
+            <label class="custom-file-upload">
+                <input type="file" id="fileSelector" onchange="changeFileName()"/>
+                choose file...
+            </label>
+            <p id="fileName">No file chosen</p>
+            <button id="uploadButton" onclick="uploadFile()" class="btn">upload</button>
+        </div>
+    </div>
+    <!-- **************** Filter ****************-->
+    <div class="mid">
+        <div id="mid" class="initial">
+             <img class = "icons" src="../photobooth/filterIcon-01.png" alt="filter"  onclick="openMid()">
+             <h1 id="filter-txt" class="title">filter</h1>
+        </div>
+         <div id="detail" class="hide" style="display: none;">
+             <input type="text" name="filters" placeholder="filter" class="textarea" style="margin-left: 35px; width: 70%" />
+             <button  class="btn" onclick="findTag()">enter</button>
+             <button  class="btn" onclick="clearFilter()">clear filter</button>
+         </div>
+    </div>
+    <!-- **************** favorite ****************-->
+    <div class="bottom">
+        <div id="bottom" class="initial" onclick="openBottom()">
+             <img class = "icons" id="bottom-icon" src="../photobooth/favoritesIcon.png" alt="favor">
+             <h1 class="title">favorite</h1>
+        </div>
+        <div id="open-fav" class="hide">
+            <button  class="btn" onclick="findFav()">filter</button>
+            <button  class="btn" onclick="clearFilter()">clear filter</button>
+        </div>
+    </div>
+</aside>
+
+<main>
+    <!-- <progress min="0" max="100" value="0">0% Complete</progress> -->
+</main>
+
+<script src="photo.js"></script>
+
+</body>
+</html>
