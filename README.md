@@ -1,7 +1,10 @@
+# PhotoBooth With Google Vision Api
+
+## Description
 Partner:
-    Name:Wanying He, Student Id:913334986, server id: 9430
-    Name:Wenyu She , Student Id:912808028, server id: 10255
-    Name:Xiuping Tan , Student Id:999119769, server id: 7246
+    Name:Wanying He,  server id: 9430
+    Name:Wenyu She ,  server id: 10255
+    Name:Xiuping Tan, server id: 7246
     
     Api Key: AIzaSyACVvKuyaUsED_STqg-J4u5MAS8LExUdEw
 
